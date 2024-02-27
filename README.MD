@@ -3,7 +3,7 @@
 A simple Python script to turn on/off a Tuya smart plug with _**tinytuya**_
 
 ### Requirements
-> Please refer to **[jasonacox/tinituya](https://github.com/jasonacox/tinytuya)** first
+> Please refer to **[jasonacox / tinituya](https://github.com/jasonacox/tinytuya)**
 
 ### Usage
 
@@ -32,11 +32,11 @@ on || off
 ### On:
 
 ```
-"C:\smart_plug_switch.py" "yuz27478210335e1374guq" "192.168.1.50" "TFo-=A;&N3AXypQt" "3.3" on
+"C:\smart_plug_switch.py" "yuz27478210335e1374guq" "192.168.1.50" "TFo-=A;&N3AXypQt" "3.3" ON
 ```
 
 ### Off:
 
 ```
-"C:\smart_plug_switch.py" "yuz27478210335e1374guq" "Auto" "TFo-=A;&N3AXypQt" "3.3" off
+"C:\smart_plug_switch.py" "yuz27478210335e1374guq" "Auto" "TFo-=A;&N3AXypQt" "3.3" OFF
 ```
