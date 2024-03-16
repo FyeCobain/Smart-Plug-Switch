@@ -1,9 +1,6 @@
-from sys import argv, exit
+from sys import argv
 import tinytuya
 
-if (len(argv) < 5):
-    exit()
-
-d = tinytuya.OutletDevice(argv[1], argv[2], argv[3])
-d.set_version(float(argv[4]))
-d.turn_on() if argv[5].strip().lower() == 'on' else d.turn_off()
+if (len(argv) == 6):
+    d = tinytuya.OutletDevice(dev_id=argv[1], address=argv[2], local_key=argv[3], version=float(argv[4]))
+    d.turn_off() if argv[5].strip().lower() == 'off' else d.turn_on()

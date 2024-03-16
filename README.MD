@@ -12,7 +12,7 @@ It requires 5 arguments, as shown in the following examples:
 ```
 yuz27478210335e1374guq
 ```
-2. Device IP ("Auto" is slower):
+2. Device IP ('Auto' is slower):
 ```
 192.168.1.80 || Auto
 ```
@@ -32,11 +32,11 @@ on || off
 ### On:
 
 ```
-"C:\smart_plug_switch.py" "yuz27478210335e1374guq" "192.168.1.80" "TFo-=A;&N3AXypQt" "3.3" ON
+"smart_plug_switch.py" "yuz27478210335e1374guq" "Auto" "TFo-=A;&N3AXypQt" "3.3" ON
 ```
 
 ### Off:
 
 ```
-"C:\smart_plug_switch.py" "yuz27478210335e1374guq" "Auto" "TFo-=A;&N3AXypQt" "3.3" OFF
+"smart_plug_switch.py" "yuz27478210335e1374guq" "192.168.1.80" "TFo-=A;&N3AXypQt" "3.3" off
 ```
